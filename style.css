@@ -1,0 +1,44 @@
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 10 px;
+  text-align: left;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #726f76;
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.container
+{
+  padding: 10px;
+  
+
+}
+table, th, td {
+  border: 1px solid rgb(41, 31, 171);
+
+}
